@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    
+    <div class="estilo">
+        
+        <div class="geral">
+            
+            <div class="jogo">
+                <main>
+                    
+                    <h1>O JOGO</h1>
+                    
+                </div>
+                
+                <div><img src="./foto1.png"></div>
+                
+                <div class="nick"><h3>Nick:</h3></div>
+                
+                <input type="text" id="Nick">
+                
+                
+                <div class="intervalo"><h3>Intervalo:</h3></div>
+                
+                <div class="responsável">
+                    
+                    <select name="escholha_dificuldade" id="opcao">
+                        
+                        <option value="1">Opção1: 1 a 10</option>
+                        <option value="2">Opção2: 1 a 100</option>
+                        <option value="3">Opção3: 1 a 200</option>
+                        
+                    </select>
+                    
+                    <button onclick="troca_dificuldade()" class="button">Começar</button>
+
+                </div>  
+                
+            </div>
+            
+            <div class="texto01"></div>
+
+            <div class="borda"></div>
+            
+            <h3 class="fulano">Digite um número:</h3>
+            
+            <div class="input3">
+
+                <input type="text" id="numero">
+
+            </div>
+            
+            <div class="jogar">
+
+                <button onclick="jogar()" class="botão01">Jogar</button>
+                
+            </div>
+            
+            <p class="tentativa1">
+
+                <span>A tentativa foi maior do que o número!</span> 
+
+            </p>
+            <p class="tentativa2">
+
+                Você ainda tem 2 tentativas!
+
+            </p>
+            
+        </div>
+    </div>
+    
+</main>
+
+        <script src="script.js"></script>
+
+</body>
+
+</html>
